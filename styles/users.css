@@ -1,0 +1,37 @@
+.users{
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid #F5F8FF;
+}
+
+.users__left{
+    background: linear-gradient(#6888FF, #5E80FF);
+    padding: 66px;
+    text-align: right;
+    width: 50%;
+    color: #fff
+}
+.users__right{
+    background: linear-gradient(#E9EFFF, #E0E9FF);
+    padding: 66px;
+    width: 50%;
+    text-align: left;
+}
+.user_procent{
+    margin-top: 14px;
+    font-size: 48px;
+    font-weight: 400;
+}
+.user__desc{
+    max-width: 260px;
+}
+.users__right>.user_procent{
+    color: #5E80FF;
+}
+.users__left>.user__desc{
+    margin-left: auto;
+}
+.users__right>.user__desc{
+    margin-right: auto;
+    color: #5E80FF;
+}

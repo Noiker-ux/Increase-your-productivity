@@ -1,0 +1,98 @@
+.about{
+    padding: 140px 0 135px;
+    background-image: url("../images/clouds.png");
+    border-bottom: 1px solid #D8E3FE;
+    border-top: 1px solid #D8E3FE;
+}
+.about__inner{
+    text-align: center;
+    margin: 0 auto;
+}
+.about__subtitle{
+    color: #3D4F9F;
+}
+.about__title{
+    color: #3D4F9F;
+    margin-top: 20px;
+    font-size: 24px;
+}
+.about__blocks{
+    margin-top: 94px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.about__obver{
+    margin: 0 auto;
+    width: 69px;
+    height: 69px;
+    background-color: #F1F5FF;
+    border-radius: 50%;
+}
+.about__item-img{
+    text-align: center;
+    margin-top: 24.5px;
+}
+.about__item-title{
+    color: #4074F8;
+    font-weight: 700;
+    margin-top: 33px;
+    font-size: 18px;
+}
+.about__item-desc{
+    max-width: 240px;
+    color: #ADB3CB;
+    margin-top: 25px;
+}
+.about__links{
+    margin-top: 92px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.about__read{
+    color: #D43F3F;
+    font-weight: 700;
+    padding: 13px 15px;
+    background-color: #FFD7D7;
+    border-radius: 2px;
+    transition: all .5 ease;
+}
+.about__read:hover{
+    background-color: #fdcbcb;
+}
+.about__start{
+    color: #3A79FF;
+    font-weight: 700;
+    padding: 13px 15px;
+    background-color: #D2E1FF;
+    border-radius: 2px;
+    transition: all .5 ease;
+}
+.about__start:hover{
+    background-color: #c0d5fd;
+}
+.about__links>p{
+    position: relative;
+    padding: 0 50px;
+}
+.about__links>p::after{
+    content: "";
+    position: absolute;
+   top: 50%;
+   bottom: 50%;
+    left: 16px;
+    width: 15px;
+    height: 1px;
+    background-color: #DAE4FE;
+}
+.about__links>p::before{
+    content: "";
+    position: absolute;
+    top: 50%;
+    bottom: 50%;
+    right: 16px;
+    width: 15px;
+    height: 1px;
+    background-color: #DAE4FE;
+}

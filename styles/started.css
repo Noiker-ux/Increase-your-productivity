@@ -1,0 +1,67 @@
+
+
+.started{
+    background: url('../images/clouds__purple.png') no-repeat center, #5E80FF;
+    padding: 100px 0;
+}
+.started__inner{
+    text-align: center;
+}
+
+.started__inner-subtitle{
+    color: #fff;
+    font-weight: 500;
+}
+.started__inner-title{
+    font-size: 48px;
+    margin-top: 16px;
+    color: #fff;
+    font-weight: 400;
+}
+.started__inner-title>span{
+    font-weight: 700;
+}
+.started__inner-desc{
+    max-width: 800px;
+    margin: 28px auto 0 auto;
+    color: #fff;
+    line-height: 28px;
+}
+.started__inner-view{
+    display: inline-block;
+    color:#565F82;
+    padding: 13px 17px;
+    background-color: #fff;
+    border-radius: 2px;
+    cursor: pointer;
+    margin-top: 35px;
+}
+.started__inner-read{
+    display: inline-block;
+    margin-top: 35px;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 2px;
+    cursor: pointer;
+    padding: 12px 17px;
+    position: relative;
+}
+.started__inner-view:hover{
+    background-color: rgb(239, 239, 247);
+}
+
+.started__inner-read::before{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 0;
+    height: 2px;
+    background-color: #ffffff;
+    transition: width 0.6s cubic-bezier(0.25, 1, 0.5, 1);
+  }
+    .started__inner-read:hover::before{
+      left: 0;
+      right: auto;
+      width: 100%;
+    }
